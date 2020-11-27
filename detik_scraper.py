@@ -1,3 +1,4 @@
+"""
 import requests
 import bs4
 
@@ -14,3 +15,4 @@ for image in images:
     print(image.find('a').find('img')['title'])
 
 #print(titles)
+"""
